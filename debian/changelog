@@ -1,3 +1,13 @@
+gnome-terminal (3.21.90-3utopia1) unstable; urgency=medium
+
+  * Utopia Repository upload.
+  * Build without search provider and Nautilus extension: this removes
+    gnome-shell and libnautilus-extension-dev from required build-deps.
+  * d/patches: import 0001-Restore-transparency.patch from Ubuntu
+    (version 3.20.2-1ubuntu3)
+
+ -- James Lu <bitflip3@gmail.com>  Sat, 10 Sep 2016 11:50:37 -0700
+
 gnome-terminal (3.21.90-3) unstable; urgency=medium
 
   * Team upload
