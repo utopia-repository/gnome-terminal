@@ -1,3 +1,21 @@
+gnome-terminal (3.22.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump vte build-dependency to >= 0.46.0 according to configure.ac changes.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 19 Sep 2016 10:47:54 +0200
+
+gnome-terminal (3.21.92-1) unstable; urgency=medium
+
+  * New upstream development release.
+  * Bump Build-Depends on libvte-2.91-dev to (>= 0.45.92) as per configure.ac.
+  * Drop Revert-window-Fix-CSD-size-calculations-with-long-ti.patch and
+    window-Fix-CSD-size-calculations-with-long-titles.patch, merged upstream.
+  * Bump debhelper compat level to 10.
+  * Install nautilus extension into multiarch path.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 14 Sep 2016 18:42:34 +0200
+
 gnome-terminal (3.21.90-3utopia1) unstable; urgency=medium
 
   * Utopia Repository upload.
