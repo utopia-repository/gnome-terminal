@@ -1,3 +1,10 @@
+gnome-terminal (3.22.1-1utopia1) unstable; urgency=medium
+
+  * Utopia Repository upload.
+  * Merge with Debian Unstable.
+
+ -- James Lu <bitflip3@gmail.com>  Sat, 12 Nov 2016 22:40:41 -0800
+
 gnome-terminal (3.22.1-1) unstable; urgency=medium
 
   * New upstream release.
