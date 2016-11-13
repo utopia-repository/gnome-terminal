@@ -1,3 +1,26 @@
+gnome-terminal (3.22.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Build-Depends on libvte-2.91-dev to (>= 0.46.1) as per configure.ac.
+  * Refresh patches.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 08 Nov 2016 16:01:25 +0100
+
+gnome-terminal (3.22.0-3) unstable; urgency=medium
+
+  * debian/control.in:
+    - Recommend default-dbus-session-bus | dbus-session-bus instead of
+      dbus-x11 (Closes: #835889)
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Thu, 29 Sep 2016 22:21:38 -0400
+
+gnome-terminal (3.22.0-2) unstable; urgency=medium
+
+  * Bump Build-Depends on libnautilus-extension-dev to (>= 3.21.92-3~) to
+    ensure we have a version with multiarch support.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 21 Sep 2016 22:10:54 +0200
+
 gnome-terminal (3.22.0-1utopia1) unstable; urgency=medium
 
   * Utopia Repository upload.

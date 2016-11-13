@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 10),
                libgtk-3-dev (>= 3.20),
                libglib2.0-dev (>= 2.42.0),
                libpcre2-dev (>= 10.00),
-               libvte-2.91-dev (>= 0.46.0),
+               libvte-2.91-dev (>= 0.46.1),
                libsm-dev,
                gnome-pkg-tools (>= 0.10),
                docbook-to-man,
@@ -37,9 +37,9 @@ Depends: ${shlibs:Depends},
          gnome-terminal-data (>= ${gnome:Version}),
          gnome-terminal-data (<< ${gnome:NextVersion})
 Provides: x-terminal-emulator
-Recommends: yelp,
+Recommends: default-dbus-session-bus | dbus-session-bus,
             gvfs,
-            dbus-x11
+            yelp
 Conflicts: nautilus-open-terminal
 Replaces: nautilus-open-terminal
 Description: GNOME terminal emulator application
