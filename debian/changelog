@@ -1,3 +1,17 @@
+gnome-terminal (3.22.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 20 Mar 2017 23:25:41 +0100
+
+gnome-terminal (3.22.1-2) unstable; urgency=medium
+
+  * Disable prefs migration from GConf to GSettings. This was already
+    available for the migration from wheezy to jessie and we don't want to
+    pull in the deprecated gconf library in stretch.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 01 Mar 2017 17:29:32 +0100
+
 gnome-terminal (3.22.1-1utopia1) unstable; urgency=medium
 
   * Utopia Repository upload.
