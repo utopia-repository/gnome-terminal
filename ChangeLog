@@ -1,3 +1,35 @@
+commit ca5b8690b158f380e3bb37cf421199c05218e0e5
+Author: Christian Persch <chpe@gnome.org>
+Date:   Sun Nov 27 20:08:39 2016 +0100
+
+    search provider: Fix incorrect assumption
+    
+    Not every application window is a TerminalWindow.
+    
+    https://bugzilla.redhat.com/show_bug.cgi?id=1398958`
+    (cherry picked from commit 777e66d2b760704c4867997cc4049e54cb47163a)
+
+ src/terminal-search-provider.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 27e1d7f0a359aa5f58010c4c9ed7a0a73f477645
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   Tue Nov 8 13:56:47 2016 +0100
+
+    Update Polish translation
+
+ po/pl.po | 172 +++++++++++++++++++++++++++++++++++++++++----------------------
+ 1 file changed, 112 insertions(+), 60 deletions(-)
+
+commit 58a23d7d7fc33f84359bd4128b2a9be8352dce97
+Author: Christian Persch <chpe@src.gnome.org>
+Date:   Mon Nov 7 19:10:13 2016 +0100
+
+    Post release version bump
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 commit 8c9d54b5eb354fc67adaee59a2b59903c3194708
 Author: Christian Persch <chpe@src.gnome.org>
 Date:   Mon Nov 7 18:41:37 2016 +0100
