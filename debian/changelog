@@ -1,3 +1,14 @@
+gnome-terminal (3.22.2-1utopia1) unstable; urgency=medium
+
+  * Utopia Repository build.
+  * Merge with Debian Unstable. Remaining changes:
+  * Revert change to disable the Nautilus shell extension; instead,
+    move it into a new gnome-terminal-nautilus package.
+  * Set myself as maintainer, moving Debian GNOME to XSBC-Original-Maintainer
+  * Update Vcs URLs to the Utopia Repository sources.
+
+ -- James Lu <bitflip3@gmail.com>  Mon, 01 May 2017 17:04:22 -0700
+
 gnome-terminal (3.22.2-1) unstable; urgency=medium
 
   * New upstream release.
