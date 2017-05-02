@@ -23,6 +23,7 @@ Build-Depends: debhelper (>= 10),
                yelp-tools,
                desktop-file-utils,
                gsettings-desktop-schemas-dev (>= 0.1.0),
+               libnautilus-extension-dev (>= 3.21.92-3~)
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-terminal/
 Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-terminal/
 Homepage: https://wiki.gnome.org/Apps/Terminal
@@ -64,3 +65,17 @@ Description: Data files for the GNOME terminal emulator
  .
  This package contains data, help files and localization settings for
  gnome-terminal, the GNOME terminal emulator application.
+
+Package: gnome-terminal-nautilus
+Architecture: any
+Depends: ${misc:Depends}, gnome-terminal, ${shlibs:Depends}
+Enhances: nautilus
+Description: Nautilus extension for the GNOME terminal emulator
+ GNOME Terminal is a terminal emulation application that you can use to
+ perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+ terminals.
+ .
+ This package contains an extension for Nautilus, the official file manager for
+ the GNOME desktop.

@@ -12,8 +12,9 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
 override_dh_autoreconf:
 	dh_autoreconf --as-needed
 
-# Utopia repository changes: build without search provider and Nautilus extension
-CONFFLAGS = --disable-search-provider --without-nautilus-extension
+# Utopia repository changes: build without search provider as it requires all
+# of GNOME Shell
+CONFFLAGS = --disable-search-provider
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
